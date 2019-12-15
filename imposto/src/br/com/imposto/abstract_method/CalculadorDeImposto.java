@@ -1,4 +1,4 @@
-package br.com.imposto;
+package br.com.imposto.abstract_method;
 
 public class CalculadorDeImposto {
     public double calcula(Orcamento orcamento, Imposto imposto) {

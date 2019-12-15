@@ -1,4 +1,4 @@
-package br.com.imposto;
+package br.com.imposto.strategy;
 
 public class Orcamento {
 

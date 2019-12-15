@@ -1,6 +1,4 @@
-package br.com.imposto;
-
-import org.w3c.dom.ls.LSOutput;
+package br.com.imposto.strategy;
 
 public class ImpostoTest {
     public static void main(String[] args) {
@@ -9,7 +7,7 @@ public class ImpostoTest {
 
         CalculadorDeImposto calculadorDeImposto = new CalculadorDeImposto();
 
-        System.out.println(calculadorDeImposto.calcula(orcamento, Imposto.ICMS));
-        System.out.println(calculadorDeImposto.calcula(orcamento, Imposto.ISS));
+        System.out.println(calculadorDeImposto.calcula(orcamento, ImpostoType.ICMS));
+        System.out.println(calculadorDeImposto.calcula(orcamento, ImpostoType.ISS));
     }
 }
