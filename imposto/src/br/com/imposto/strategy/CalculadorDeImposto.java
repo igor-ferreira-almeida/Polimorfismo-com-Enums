@@ -1,5 +1,7 @@
 package br.com.imposto.strategy;
 
+import br.com.imposto.Orcamento;
+
 public class CalculadorDeImposto {
     public double calcula(Orcamento orcamento, ImpostoType impostoType) {
         double preco = orcamento.getPreco();

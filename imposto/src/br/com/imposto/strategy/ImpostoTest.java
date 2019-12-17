@@ -1,5 +1,7 @@
 package br.com.imposto.strategy;
 
+import br.com.imposto.Orcamento;
+
 public class ImpostoTest {
     public static void main(String[] args) {
         Orcamento orcamento = new Orcamento();

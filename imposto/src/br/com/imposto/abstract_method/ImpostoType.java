@@ -1,6 +1,6 @@
 package br.com.imposto.abstract_method;
 
-public enum Imposto {
+public enum ImpostoType {
 
     ICMS(0.1) {
         @Override
@@ -16,7 +16,7 @@ public enum Imposto {
 
     private final double percentual;
 
-    Imposto(double percentual) {
+    ImpostoType(double percentual) {
         this.percentual = percentual;
     }
 
