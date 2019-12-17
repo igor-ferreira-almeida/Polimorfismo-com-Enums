@@ -1,3 +1,21 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@igor-ferreira-almeida 
+1
+00igor-ferreira-almeida/Design-Pattern-Headfirst
+ Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+Design-Pattern-Headfirst/.gitignore
+@igor-ferreira-almeida igor-ferreira-almeida Adicionando exemplo de Decorator
+bf20df6 yesterday
+@igor-ferreira-almeida@igalmeida
+63 lines (47 sloc)  821 Bytes
+  
 .metadata
 bin/
 tmp/
@@ -9,6 +27,7 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+
 
 # External tool builders
 .externalToolBuilders/
@@ -54,3 +73,25 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+# Macbook
+.DS_Store
+out/
